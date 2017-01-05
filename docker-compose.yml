@@ -1,0 +1,6 @@
+build:
+  image: lineageos/docker_build
+  volumes:
+  - ./lineage_repo/:/home/lineage/lineage_repo
+  - ./output_dir/:/home/lineage/lineage_repo/out
+  - ./ccache/:/src/ccache
